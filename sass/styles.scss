@@ -2,16 +2,15 @@
 
 @import "lib/reset";
 
-@import "tag-general";
-@import "";
-@import "Header-Nav-Bar";
-@import "Hero-Lessons";
-@import "Our-Clients";
-@import "Manage";
-@import "Pixelgrade";
-@import "Helping-local-business";
-@import "How-to-design";
-@import "Costumers";
-@import "Caring";
-@import "Demo";
-@import "Footer";
+@import "partials/tag-general";
+@import "partials/header-nav-bar";
+@import "partials/hero-lessons";
+@import "partials/our-clients";
+@import "partials/manage";
+@import "partials/pixelgrade";
+@import "partials/helping-local-business";
+@import "partials/how-to-design";
+@import "partials/costumers";
+@import "partials/caring";
+@import "partials/demo";
+@import "partials/footer";

@@ -1,0 +1,9 @@
+Tipografías
+h1 = 64px
+h2 = 36px
+h3 = 28px
+h4 = 20px
+h5 = 64px
+
+p = 16px
+p.small = 14px
