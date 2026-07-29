@@ -1,7 +1,55 @@
-html{
-    font-family: "Inter", sans-serif;
+@use 'variables' as *;
+
+*;
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-family-primary;
+    overflow: hidden;
+    margin: 0;
 }
 
 h1{
-    text-
+    font-size: $font-size-h1;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+h2{
+    font-size: $font-size-h2;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+h3{
+    font-size: $font-size-h3;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h4{
+    font-size: $font-size-h3;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+p{
+    font-size: $font-size-p;
+    color: $color-primary;
+    line-height: 1.5;
+}
+
+a{
+    font-size: $font-size-p;
+    background-color: $color-white;
+    color: $color-primary;
+}
+
+button{
+    font-size: $font-size-p;
+    background-color: $color-white;
+    color: $color-primary;
 }

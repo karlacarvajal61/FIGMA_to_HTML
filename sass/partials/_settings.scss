@@ -1,12 +1,20 @@
-//Fuentes
+//Familia de fuente
+$font-family-primary: "Inter", sans-serif;
+
+//Tamaño Fuentes
+//Base: 16px = 1rem
 $font-main: "Inter", sans-serif;
-$font-size-p: 16px;
-$font-size-small: 14px;
-$font-size-h1: 64px;
-$font-size-h2: 36px;
-$font-size-h3: 28px;
-$font-size-h4: 20px;
-$font-size-h5: 64px;
+$font-size-p: 1rem; //16px
+$font-size-small: 0.875rem; //14px
+$font-size-h1: 4rem; //64px
+$font-size-h2: 2.25rem; //36px
+$font-size-h3: 1.75rem; //28px
+$font-size-h4: 1.25rem; //20px
+$font-size-h5: 4rem; //64px
+
+//Botones
+$font-size-button: 1rem;
+$font-size-button-small:0.875rem;
 
 //Colores
 $color-primary: #4D4D4D;
@@ -18,7 +26,11 @@ $color-white: #ffffff;
 
 //Containers sizes
 $container-width:1155px;
-$container-second: 1110px;
-$container-small: 
+$container-second: 1110px; 
 
-//Spacing
+//Espaciado
+$spacing-xs: 8px;
+$spacing-s: 16px;
+$spacing-m: 24px;
+$spacing-l: 32px;
+$spacing-xl:64px;
