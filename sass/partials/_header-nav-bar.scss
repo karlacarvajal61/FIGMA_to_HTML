@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-secondary;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 100%;
+}
+
+.nav-info {
+    display: flex;
+    align-items: space-between;
+    gap: 50px;
+    font-size: $font-size-p;
+}
+
+.login {
+    border: none;
+    color:$color-accent;
+    background-color: $color-secondary;
+    font-size: $font-size-small;
+    padding: 10px 20px;
+}
+
+.btn-verde-header{
+    border: none;
+    border-radius: 6px;
+    color:$color-white;
+    background-color: $color-accent;
+    font-size: $font-size-small;
+    padding: 10px 20px;
+}
