@@ -1,0 +1,19 @@
+#pixelgrade-info-container {
+    display: flex;
+}
+.pixelgrade-info-img {
+    flex-basis: 38%;
+
+    img {
+        margin-left: 10%;
+        width: 100%;
+    }
+}
+
+.pixelgrade-info-content {
+    flex-basis: 54%;
+    margin-left: 10%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    line-height: 1.5;
+}

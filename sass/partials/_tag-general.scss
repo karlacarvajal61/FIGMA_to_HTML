@@ -7,7 +7,6 @@
 
 body{
     font-family: $font-family-primary;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -15,6 +14,10 @@ h1{
     font-size: $font-size-h1;
     font-weight: 600;
     line-height: 1.15;
+        
+    span {
+        color: $color-accent;
+    }
 }
 
 h2{
@@ -60,4 +63,9 @@ button{
     font-size: $font-size-p;
     background-color: $color-white;
     color: $color-primary;
+}
+
+.container-width {
+    width: 80%;
+    margin: auto;
 }
