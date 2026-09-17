@@ -1,0 +1,102 @@
+@media only screen and (max-width: $movil-breakpoint) {
+    body {
+        border-top: 10px solid $color-text;
+        font-size: $sizeDefault - 1;
+    }
+
+    //hero-lessons
+    #hero-lessons {
+        width: 100%;
+    }
+
+    //our-clients
+    .clients-img {
+        width: 100%;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+    //manage
+    .manage-card {
+        display: flex;
+        flex-direction: column;
+
+        .card {
+            width: 40%;
+            height: 210px;
+            padding: 25px;
+            border: 1px solid white;
+            margin: 15px;
+            border-radius: 3px;
+            text-align: center;
+            box-shadow: 1px 5px 6px 1px $text-color;
+        }
+    }
+
+    //Pixelgrade
+    #pixelgrade {
+        width: 100%;
+
+        h2 {
+            font-size: 1.5rem
+        }
+    }
+
+    //Help-local
+    #help-local {
+        width: 100%;
+    }
+
+
+    //How-to
+    #how-to {
+        width: 100%;
+    }
+
+    //Costumers 
+    #costumers {
+        width: 100%;
+
+        .costumers-principal-img {
+            width: 50%;
+        }
+    }
+
+    //Caring
+    .caring-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .card-item {
+            position: relative;
+            width: 80%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .card-text {
+        position: relative;
+        margin: -100px auto 0;
+        }
+    }
+
+    //Demo
+    #demo {
+        h4 {
+            font-size: 2.5rem;
+        }
+    }
+
+    //Footer
+    .footer-section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
