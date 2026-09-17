@@ -527,17 +527,17 @@ button {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .pixelgrade-img {
-  flex-basis: 38%;
+  flex-basis: 20%;
 }
 .pixelgrade-img img {
   margin-left: 10%;
-  width: 70%;
+  width: 30%;
 }
 
 .pixelgrade-content {
@@ -546,6 +546,79 @@ button {
   margin-top: 70px;
   margin-bottom: 70px;
   line-height: 1.5;
+}
+
+.btn-verde {
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #4CAF4F;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 14px 32px;
+}
+
+.main-container {
+  background-color: #F5F7FA;
+}
+
+#help-local-container {
+  display: flex;
+  justify-content: center;
+}
+
+.help-local-content {
+  flex-basis: 35%;
+  align-self: center;
+}
+
+.help-local-items {
+  display: flex;
+  flex-basis: 38%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.items {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.items-img {
+  align-items: center;
+}
+
+.items-principal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.how-to-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.how-to-content {
+  flex-basis: 55%;
+  margin-left: 10%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  line-height: 1.5;
+}
+
+.how-to-img {
+  flex-basis: 38%;
+}
+.how-to-img img {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 10%;
 }
 
 #caring {
