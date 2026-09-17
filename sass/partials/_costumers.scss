@@ -1,0 +1,48 @@
+.costumer {
+    background-color: #f5f7fa;
+}
+
+.costumer-container {
+    display: flex;
+}
+
+.costumer-content {
+    flex-basis: 60%;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    align-items: center;
+    line-height: 1.5;
+
+    h4 {
+        font-size: 1.25rem;
+        color: $color-accent;
+    }
+}
+
+.costumer-principal-img {
+    flex-basis: 35%;
+
+    img {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+}
+
+.costumer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.secondary-btn {
+    border: none;
+    color:$color-accent;
+    background-color: $color-secondary;
+    font-size: $font-size-h4;
+    padding: 10px 20px;
+    color: $color-accent;
+    font-weight: 600;
+}
+
