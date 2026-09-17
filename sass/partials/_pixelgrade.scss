@@ -1,27 +1,30 @@
 #pixelgrade-container {
-    display: flex;
+    padding: 70px 0;
+
+        .container{
+        display: flex;
+        align-items: center;
+    }  
 }
 
 .container {
     max-width: $container-width;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 20px 15px;
 }
 
 .pixelgrade-img {
-    flex-basis: 20%;
+    flex-basis: 45%;
+    margin-right: 5%;
 
     img {
-        margin-left: 10%;
-        width: 30%;
+        margin-left: 5%;
+        width: 100%;
     }
 }
 
 .pixelgrade-content {
-    flex-basis: 54%;
-    margin-left: 10%;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    flex-basis: 60%;
     line-height: 1.5;
 }
 

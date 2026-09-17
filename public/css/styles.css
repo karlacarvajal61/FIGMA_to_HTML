@@ -523,28 +523,30 @@ button {
 }
 
 #pixelgrade-container {
+  padding: 70px 0;
+}
+#pixelgrade-container .container {
   display: flex;
+  align-items: center;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 20px 15px;
 }
 
 .pixelgrade-img {
-  flex-basis: 20%;
+  flex-basis: 45%;
+  margin-right: 5%;
 }
 .pixelgrade-img img {
-  margin-left: 10%;
-  width: 30%;
+  margin-left: 5%;
+  width: 100%;
 }
 
 .pixelgrade-content {
-  flex-basis: 54%;
-  margin-left: 10%;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  flex-basis: 60%;
   line-height: 1.5;
 }
 
@@ -564,17 +566,18 @@ button {
 
 #help-local-container {
   display: flex;
+  justify-content: space-between;
   justify-content: center;
 }
 
 .help-local-content {
-  flex-basis: 35%;
+  flex-basis: 40%;
   align-self: center;
 }
 
 .help-local-items {
   display: flex;
-  flex-basis: 38%;
+  flex-basis: 55%;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -588,7 +591,7 @@ button {
 }
 
 .items-img {
-  align-items: center;
+  align-items: inherit;
 }
 
 .items-principal {

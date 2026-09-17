@@ -4,17 +4,18 @@
 
 #help-local-container {
     display: flex;
+    justify-content: space-between;
     justify-content: center;
 }
 
 .help-local-content {
-    flex-basis: 35%;
+    flex-basis: 40%;
     align-self: center;
 }
 
 .help-local-items {
     display: flex;
-    flex-basis: 38%;
+    flex-basis: 55%;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -28,7 +29,7 @@
 }
 
 .items-img {
-    align-items: center;
+    align-items: inherit;
 }
 
 .items-principal{
