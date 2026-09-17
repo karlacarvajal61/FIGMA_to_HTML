@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!--Header-->
     <div class="header">
         <div class="header-content container-width">
             <div>
@@ -34,14 +35,14 @@
 
     <!-- Hero - Lessons -->
     <div class="hero-general hero">
-        <div class="hero-content">
+        <div class="hero-content lessons-content">
             <div>
                 <h1>Lessons and insights<br><span>from 8 years</span></h1>
                 <p>Where to grow your business as a photographer: site or social media?</p>
                 <button class="btn-verde">Register</button>
             </div>
             </div>
-            <div class="hero-img">
+            <div class="hero-img lessons-img">
                 <img src="public/assets/img/illustration.png"/>
             </div>
         </div>
@@ -49,8 +50,8 @@
 </div>
 
     <!-- Our Clients -->
-        <div class="clients-content container-width">
-            <div>
+        <div id="clients-content" class="container-width">
+            <div class="clients-content">
                 <h2>Our clients</h2>
                 <p>We have been working with some Fortune 500+ clients</p>
             </div>
@@ -251,47 +252,73 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Demo -->
-    <div>
-        <h5>Pellentesque suscipit fringilla libero eu.</h5>
-        <button>Get a Demo</button>
+    <div class="main-container">
+        <div class="demo">
+            <div class="demo-container">
+                <div class="demo-content">
+                    <h5>Pellentesque suscipit fringilla libero eu.</h5>
+                </div>
+                <div>
+                    <button class="btn-verde">Get a Demo</button>
+                </div>
+            </div>
+        </div>
     </div>
+
     <!-- Footer -->
-    <div id="footer">
-        <div>
-            <img src="/public/assets/svg/logo.svg" alt="Logo del sitio"/>
-            <p class="p-small">Copyright © 2020 Nexcent ltd.</p>
-            <p class="p-small">All rights reserved</p>
-            <img src="public/assets/svg/instagram_logo.svg" alt="Logo de Instagram">
-            <img src="public/assets/svg/dribbble_logo.svg" alt="Logo de Dribbble">
-            <img src="public/assets/svg/twitter_logo.svg" alt="Logo de Twitter">
-            <img src="public/assets/svg/youtube_logo.svg" alt="Logo de Youtube">
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-section-1">
+                <div class="footer-logo">
+                    <img src="/public/assets/img/Logo-footer.png" alt="Logo del sitio"/>
+                </div>
+                <div class="footer-content">
+                    <p class="p-small">Copyright © 2020 Nexcent ltd.</p>
+                    <p class="p-small">All rights reserved</p>
+                </div>
+                <div footer-social-media>
+                    <a href="#"><img src="public/assets/svg/instagram_logo.svg" alt="Logo de Instagram"></a>
+                    <a href="#"><img src="public/assets/svg/dribbble_logo.svg" alt="Logo de Dribbble"></a>
+                    <a href="#"><img src="public/assets/svg/twitter_logo.svg" alt="Logo de Twitter"></a>
+                    <a href="#"><img src="public/assets/svg/youtube_logo.svg" alt="Logo de Youtube"></a>
+                </div>
+            </div>
+
+            <div class="footer-section-2">
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#">About us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Testimonials</a>
+                </div>
+
+                <div class="footer-support">
+                    <h4>Support</h4>
+                    <a href="#">Help center</a>
+                    <a href="#">Terms of service</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Status</a>
+                </div>
+                
+                <div class="footer-email">
+                    <h4>Stay up to date</h4>
+                    <form class="input-group">
+                        <input type="email" id="correo" name="coreo" placeholder="Your email address">
+                        <button type="submit" aria-level="Enviar">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div>
-            <div>
-                <h4>Company</h4>
-                <p class="p-small">About us</p>
-                <p class="p-small">Blog</p>
-                <p class="p-small">Contact us</p>
-                <p class="p-small">Pricing</p>
-                <p class="p-small">Testimonials</p>
-            </div>
-            <div>
-                <h4>Support</h4>
-                <p class="p-small">Help center</p>
-                <p class="p-small">Terms of service</p>
-                <p class="p-small">Legal</p>
-                <p class="p-small">Privacy policy</p>
-                <p class="p-small">Status</p>
-            </div>
-            <div>
-                <h4>Stay up to date</h4>
-                <form>
-                    <input type="email" id="correo" name="coreo" placeholder="Your email address">
-                </form>
-            </div>
-        </div>
-    </div>
+    </footer>
 </body>
 </html>
