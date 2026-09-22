@@ -1,7 +1,7 @@
 @media only screen and (max-width: $movil-breakpoint) {
     body {
-        border-top: 10px solid $color-text;
-        font-size: $sizeDefault - 1;
+        border-top: 10px solid $color-accent;
+        font-size: $font-size-p - 1;
     }
 
     //hero-lessons
@@ -29,7 +29,7 @@
             margin: 15px;
             border-radius: 3px;
             text-align: center;
-            box-shadow: 1px 5px 6px 1px $text-color;
+            box-shadow: 1px 5px 6px 1px $color-accent;
         }
     }
 
